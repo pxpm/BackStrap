@@ -1,0 +1,66 @@
+// -------------------
+// Backstrap Variables
+// -------------------
+// They override CoreUI and Bootstrap variables
+
+$white: #FFFFFF !default;
+$gray-base: #181b1e !default;
+$gray-100: #F9FBFD !default;
+$gray-200: #F1F4F8 !default;
+$gray-300: #D9E2EF !default;
+$gray-400: #C6D3E6 !default;
+$gray-500: #ABBCD5 !default;
+$gray-600: #869AB8 !default;
+$gray-700: #506690 !default;
+$gray-800: #384C74 !default;
+$gray-900: #1B2A4E !default;
+$black: #161C2D !default;
+
+$grays: () !default;
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$blue:       #467FD0 !default;
+$indigo:     #6610f2 !default;
+$purple:     #7c69ef !default;
+$pink:       #e83e8c !default;
+$red:        #df4759 !default;
+$orange:     #fd9644 !default;
+$yellow:     #ffc107 !default;
+$green:      #42ba96 !default;
+$teal:       #20c997 !default;
+$cyan:       #17a2b8 !default;
+$light-blue: #69d2f1 !default;
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "light-blue": $light-blue,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+  ),
+  $colors
+);

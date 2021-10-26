@@ -1,6 +1,8 @@
+// instead of importing 'variables'
+// we're customizing some colors right here
 @import "backstrap_colors";
 
-$primary:       $purple !default;
+$primary:       $blue !default;
 $secondary:     $gray-300 !default;
 $success:       $green !default;
 $info:          $blue !default;
@@ -32,3 +34,10 @@ $theme-colors: map-merge(
 );
 
 @import "backstrap_miscellaneous";
+
+// Import styles
+@import "node_modules/@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+@import "noty";
