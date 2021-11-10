@@ -3,6 +3,10 @@
 // --------------------
 // Styles applied after Bootstrap and CoreUI
 
+@import "customs/list";
+@import "customs/form";
+@import "customs/crud";
+
 body {
   background-color: $gray-200;
 }
